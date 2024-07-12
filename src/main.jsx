@@ -1,7 +1,7 @@
 import "./style.css";
 import ReactDOM from "react-dom/client";
 import { Canvas } from "@react-three/fiber";
-import Laptop from "./Laptop";
+import Laptop from "./Laptop.jsx";
 import Title from "./Title.jsx";
 import Social from "./Social.jsx"
 

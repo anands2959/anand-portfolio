@@ -6,7 +6,7 @@ function Title() {
     <>
       <div className="wrapper">
         <div className="title">
-          <img src="./component/logo.png" alt="" />
+          <img src="./src/logo.png" alt="" />
         </div>
 
         

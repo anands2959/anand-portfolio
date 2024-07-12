@@ -6,11 +6,10 @@ import {
   Html,
   useGLTF,
 } from "@react-three/drei";
-
 import "./style.css";
 export default function Laptop() {
-  const laptop = useGLTF("./component/model.gltf");
-  
+  const laptop = useGLTF("./src/model.gltf");
+
   const [zoom, setZoom] = useState(1);
 
   //zoom efect
@@ -54,4 +53,3 @@ export default function Laptop() {
     </>
   );
 }
-
