@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #081b29;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.laptop iframe {
+  width: 1024px;
+  height: 670px;
+  border: none;
+  border-radius: 20px;
+}
+.wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -3;
+  background-color: transparent;
+}
+.wrapper p {
+  position: absolute;
+  font-size: 10px;
+  right: 42%;
+  color: #c6c6c6;
+  bottom: 0;
+}
+
+.wrapper .title {
+  position: absolute;
+  display: flex;
+  width: 90%;
+  height: 100px;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.title img {
+  width: 140px;
+  left: 0;
+}
+svg {
+  font-family: "Russo One", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+svg text {
+  animation: stroke 6s infinite alternate;
+  stroke-width: 2;
+  stroke: #365fa0;
+  font-size: 1050px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+  }
+  80% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: rgba(54, 95, 160, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(72, 138, 204, 1);
+    stroke: rgba(54, 95, 160, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+.Social-link {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 20%;
+  margin: 30px;
+  gap: 15px;
+  z-index: 1;
+  background-color: transparent;
+}
+
+/* /* Responsive Styles */
+/* @media screen and (max-width: 1024px) {
+  
+  .Social-link {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper p {
+    font-size: 10px;
+    right: 2%;
+  }
+
+  .title img {
+    width: 60px;
+  }
+  .Social-link{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    top: 10px;
+  }
+  .Social-link box-icon {
+    font-size: 10px;
+  }
+
+  svg text {
+    font-size: 1100px;
+  }
+}  */
